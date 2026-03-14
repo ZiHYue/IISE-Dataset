@@ -1,0 +1,1 @@
+The data presented in the experimental section (Section 6) was generated using a dataset seeded with a random seed of 42. Furthermore, the range of job sizes was set to low = 1e-10 and high = 10.0, with values ​​rounded to three decimal places. The machine length was set to S = 10.
