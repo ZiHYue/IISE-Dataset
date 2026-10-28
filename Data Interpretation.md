@@ -4,7 +4,7 @@ The experimental instances reported in Section 6.2 were randomly generated. Fixe
 
 #### 6.2.1 Single-Machine Instances
 
-The job sizes were randomly generated as integers in the open interval \((0,10)\), that is, from the set {1,2,...,10\}. The random seed was set to 42, and the chamber length was set to \(S=10\).
+**Input Dataset:** The job sizes were randomly generated as integers in the open interval \((0,30)\), that is, from the set {1,2,...,30\}. **The random seed was set to 42**, and the chamber length was set to \(S=30\).
 
 Each instance was solved using the following five methods:
 
@@ -22,9 +22,9 @@ where Cmax denotes the makespan, CPU time denotes the computational time, and ga
 
 #### 6.2.2 Medium-Scale Identical-Machine Instances
 
-**Table 8:** Job sizes were randomly generated in the open interval (0,10) and rounded to three decimal places. The random seed was set to 42, the chamber length was set to \(S=10\), and the number of machines was set to \(m=2\). Each instance was solved using MINLP-L and MILP-L, and the corresponding makespan, CPU time, and terminal solver gap were recorded.
+**Input Dataset:** **Table 8:** Job sizes were randomly generated in the open interval (0,30) and rounded to three decimal places. **The random seed was set to 42**, the chamber length was set to \(S=30\), and the number of machines was set to \(m=2\). Each instance was solved using MINLP-L and MILP-L, and the corresponding makespan, CPU time, and terminal solver gap were recorded.
 
-**Tables 9 and 10:** To compare the performance of the three approximation algorithms and the three heuristic batching rules on medium-scale instances, six groups of experiments were conducted for each method. Each group contained 50 independently generated random instances, using random seeds ranging from 101 to 150. The tables report the average results over the 50 instances in each group.
+**Input Dateset:** **Tables 9 and 10:** To compare the performance of the three approximation algorithms and the three heuristic batching rules on medium-scale instances, six groups of experiments were conducted for each method. Each group contained 50 independently generated random instances, using random seeds ranging from 101 to 150. The tables report the average results over the 50 instances in each group.
 
 The comparison focuses on the makespan Cmax and gap2, which measures the relative deviation of the obtained makespan from the theoretical lower bound. Detailed results are provided in:
 
@@ -36,7 +36,7 @@ The comparison focuses on the makespan Cmax and gap2, which measures the relativ
 
 To evaluate the performance of the three approximation algorithms on large-scale instances, 15 groups of experiments were conducted for each algorithm, corresponding to different combinations of job and machine numbers. The number of machines \(m\) was set to 10, 15, and 20.
 
-Each group contained 50 independently generated random instances, using random seeds ranging from 101 to 150. The reported values are the averages over the 50 instances in each group and are presented in the following order:
+**Input Dataset:** **Each group contained 50 independently generated random instances, using random seeds ranging from 101 to 150.** The reported values are the averages over the 50 instances in each group and are presented in the following order:
 
 [ Cmax\ CPU time\ Splitting\ gap2 \]
 
